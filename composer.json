@@ -1,0 +1,30 @@
+{
+    "name": "sanmark/laravel-queue-fallback",
+    "keywords": ["laravel Plugin", "Queue fallback"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sanmark\\QueueFallback\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chethana Kalpa",
+            "email": "chethana@thesanmark.com"
+        },
+        {
+            "name": "Randika Srimal",
+            "email": "randika@thesanmark.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sanmark\\QueueFallback\\QueueFallbackServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "laravel/pint": "^1.15"
+    }
+}
